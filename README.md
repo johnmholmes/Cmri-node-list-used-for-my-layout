@@ -3,7 +3,7 @@ this will be the index for all of the nodes on my layout.
 
 Node 1 Peel turnout and signals and 5 sensors 
 
-Node 2
+Node 2 Dock turnout and signals and 5 sensors
 
 Node 3
 
