@@ -19,7 +19,7 @@ Node 8
 
 Node 9
 
-Node 10 25 channel block detection using a mega Jmri address 10001 - up
+Node 10 25 channel block detection using a mega Jmri address 10001 - up https://github.com/johnmholmes/Node-10-MERG-Block-Detection
 
 Node 11
 
