@@ -1,7 +1,7 @@
 # Cmri-node-list-used-for-my-layout
 this will be the index for all of the nodes on my layout.
 
-Node 1 to be confirmed maybe spot detection
+Node 1 Peel turnout and signals and 5 sensors 
 
 Node 2
 
