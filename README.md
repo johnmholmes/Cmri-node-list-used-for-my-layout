@@ -5,7 +5,7 @@ Node 1 Peel turnout and signals and 5 sensors
 
 Node 2 Dock turnout and signals and 5 sensors
 
-Node 3
+Node 3 Lower to Upper level turnout  and signals and 2 sensors
 
 Node 4
 
