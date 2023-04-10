@@ -1,4 +1,4 @@
-/*pins 0 - 1 are usedfor Rx and Tx no trigger pin required due to using
+/*pins 0 - 1 are used for Rx and Tx no trigger pin required due to using
   TTL to RS485 Module Serial Port MCU Automatic Flow Control Module.
   
   simple servo cmri node which moves 1 servo and the sends back a bit back to jmri to indicate
