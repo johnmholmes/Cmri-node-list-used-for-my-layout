@@ -1,11 +1,11 @@
 # Cmri-node-list-used-for-my-layout
 this will be the index for all of the nodes on my layout.
 
-Node 1 Peel turnout T1 and signals and 5 sensors 
+Node 1 Peel turnout T1 and signals and 5 sensors closed 70 thrown 108
 
-Node 2 Dock turnout T2 and signals and 5 sensors
+Node 2 Dock turnout T2 and signals and 5 sensors closed 110 thrown 70
 
-Node 3 Lower to Upper level turnout T3  and signals and 2 sensors
+Node 3 Lower to Upper level turnout T3  and signals and 2 sensors closed 108 thrown 80
 
 Node 4
 
