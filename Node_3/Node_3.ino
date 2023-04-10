@@ -11,7 +11,7 @@
 #include <Servo.h>
 
 // define node address each node needs its own address
-#define CMRI_ADDR 3
+#define CMRI_ADDR 4
 
 // define turnout required positions each turnout will need calibrating
 #define turnout1ClosedPosition 108
