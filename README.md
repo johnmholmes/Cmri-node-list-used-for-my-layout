@@ -1,5 +1,5 @@
 # Cmri-node-list-used-for-my-layout
-this will be the index for all of the nodes on my layout.
+This is the index for all of the nodes on my layout.
 
 Node 1 Peel turnout T1 and signals and 5 sensors closed 70 thrown 108
 
