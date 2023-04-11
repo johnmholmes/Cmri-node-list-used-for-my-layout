@@ -11,3 +11,5 @@ Signal head 9 3006 to 3007
 Lower level to Upper T3 Sensor 3002 Pin A0
 T3 Anticlockwise sensor 3003 Pin A1
 Pin A2 is programmed but not used
+
+The 2 sensors are supplied 5 volts from a seperate supply in the Peel station mimic panel box
