@@ -1,3 +1,8 @@
-Tested and working 
-Closed = 108
-Thrown = 80
+Address 1
+Closed = 70
+Thrown = 108
+T1 1001
+T1 Feedback 1001
+Signal head 1 1002 to 1003
+Signal head 2 1004 to 1005
+Signal head 3 1006 to 1007
