@@ -7,11 +7,11 @@ Node 2 Dock turnout T2 and signals and 5 sensors closed 110 thrown 70
 
 Node 3 Lower to Upper level turnout T3  and signals and 2 sensors closed 108 thrown 80
 
-Node 4 Dock City turnout T4 and signal and 3 sensors
+Node 4 Dock City turnout T4 and signals and 3 sensors
 
-Node 5
+Node 5 Willaston Station T5 and signals and 5 sensors
 
-Node 6
+Node 6 Lower to upper T6 no planned signals
 
 Node 7
 
