@@ -4,7 +4,7 @@
   simple servo cmri node which moves 1 servo and the sends back a bit back to jmri to indicate
   the servo has been moved
   also will control 6 off signal leds
-  it will also read 3 sensors/switchs
+  it will also read 2 sensors/switchs
   Code uses some of Chris Sharp code to add slow motion servo.
 */
 #include <CMRI.h>
