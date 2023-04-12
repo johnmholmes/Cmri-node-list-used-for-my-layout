@@ -17,9 +17,9 @@ Node 6 T6 Lower to upper no planned signals
 
 Node 7 T7 
 
-Node 8 T8
+Node 8 T8 T9 Dock crossover 6 sensor reads and possible 12 leds can be swopped for sensor reads
 
-Node 9 T9 Dock Siding and 5 sensors possible ground signals
+Node 9 T9 
 
 Node 10 25 channel block detection using a mega Jmri address 10001 - up https://github.com/johnmholmes/Node-10-MERG-Block-Detection
 
