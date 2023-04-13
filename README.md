@@ -1,14 +1,17 @@
 # Cmri-node-list-used-for-my-layout
 This is the index for all of the nodes on my layout.
 
+--------------
 Node 1 T1 Peel turnout and signals and 5 sensors closed 70 thrown 108.
   
   This needs to have a extra pin added to allow control of lighting on the scene we have a number of pins available to use with a mosfet attached.
 
+--------------
 Node 2 T2 Peel to Dock turnout and signals and 5 sensors closed 110 thrown 70.
   
   This node is complete and needs nothing added unless I add the mine lift in which case it could be altered to include a trigger to start the seperate nano             controlling the mine lift.
 
+-------------
 Node 3 T3 Upper to Lower level turnout  and signals and 2 sensors closed 108 thrown 80.
   
   This node I feel no further work is required.
