@@ -13,6 +13,8 @@ Node 4 T4 Docks to Platform 1 or siding crossover
 
 Node 5 T5 Dock siding to crossover
 
+-------------
+
 Node 6 T6 Peel or Dock city turnout
 
 Node 7 T7 Dock city Platform 1 or 2 turnout
