@@ -3,7 +3,7 @@ This is the index for all of the nodes on my layout.
 
 Node 1 T1 Peel turnout and signals and 5 sensors closed 70 thrown 108
 
-Node 2 T2 Dock turnout and signals and 5 sensors closed 110 thrown 70
+Node 2 T2 Peel to Dock turnout and signals and 5 sensors closed 110 thrown 70
 
 Node 3 T3 Lower to Upper level turnout  and signals and 2 sensors closed 108 thrown 80
 
