@@ -26,8 +26,8 @@
 #define Sensor1 A0                                //jmri 4002
 #define Sensor2 A1                                //jmri 4003
 #define Sensor3 A2                                //jmri 4004
-#define Sensor3 A3                                //jmri 4005
-#define Sensor3 A3                                //jmri 4005
+#define Sensor4 A3                                //jmri 4005
+#define Sensor5 A4                                //jmri 4005
 
 //setup themove speed of servo
 #define turnoutMoveSpeed 20                       // [ms] lower number is faster
@@ -45,7 +45,7 @@ byte turnout1Target   = turnout1ClosedPosition;
 void setup() {
   delay(2000);
   //setup output pins
-  pinModee(lightControl, OUTPUT);
+  pinMode(lightControl, OUTPUT);
 
   //setup input pins
   pinMode(Sensor1, INPUT_PULLUP);
@@ -55,9 +55,7 @@ void setup() {
   pinMode(Sensor5, INPUT_PULLUP);
 
 
-  digitalWrite(throughApproachGreenLed, LOW);      // light led 1 on start up  to show its working
-  delay(2000);
-  digitalWrite(throughApproachGreenLed, HIGH);
+
   turnOut1.attach(2);
   turnOut1.write(turnout1ClosedPosition);
 
