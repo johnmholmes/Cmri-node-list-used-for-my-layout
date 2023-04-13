@@ -8,6 +8,7 @@ Node 2 T2 Dock turnout and signals and 5 sensors closed 110 thrown 70
 Node 3 T3 Lower to Upper level turnout  and signals and 2 sensors closed 108 thrown 80
 
 -------------
+TESTING stage
 
 Node 4 T4 Docks to Platform 1 or siding crossover Added a light control for using with a mosfet on pin 4 jmri 4002 no signals planned
 
