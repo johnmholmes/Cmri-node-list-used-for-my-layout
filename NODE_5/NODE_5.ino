@@ -3,9 +3,9 @@
   
   simple servo cmri node which moves 1 servo and the sends back a bit back to jmri to indicate
   the servo has been moved
-  also will control 6 off signal leds
-  it will also read 3 sensors/switchs
-  Code uses some of Chris Sharp code to add slow motion servo.
+  also will control lights on the scene
+  it will also read 5 sensors/switchs
+  
 */
 #include <CMRI.h>
 #include <Servo.h>
@@ -14,26 +14,20 @@
 #define CMRI_ADDR 5
 
 // define turnout required positions each turnout will need calibrating
-#define turnout1ClosedPosition 108
-#define turnout1ThrownPosition 80
+#define turnout1ClosedPosition 40
+#define turnout1ThrownPosition 100
 
-// define signal leds turnout 1 pins 0 and 1 rx & tx ADDRESS 3001 USED FOR BIT STATE OF TURNOUT
-#define throughApproachGreenLed 4                 //jmri 5002
-#define throughApproachRedLed 5                   //jmri 5003
-#define divergingApproachGreenLed 6               //jmri 5004
-#define divergingApproachRedLed 7                 //jmri 5005
-#define throughGreenLed 8                         //jmri 5006
-#define throughRedLed 9                           //jmri 5007
+#define lightControl 4                            //jmri 5002
 
-// Spare pins at the moment 3 10 to 13 And A5 to A7 
+
+// Spare pins at the moment 
 
 //define infrared detection T3 as inputs
 #define Sensor1 A0                                //jmri 5002
 #define Sensor2 A1                                //jmri 5003
 #define Sensor3 A2                                //jmri 5004
 #define Sensor4 A3                                //jmri 5005
-#define Sensor4 A4                                //jmri 5006
-
+#define Sensor5 A4                                //jmri 5005
 
 //setup themove speed of servo
 #define turnoutMoveSpeed 20                       // [ms] lower number is faster
@@ -51,22 +45,17 @@ byte turnout1Target   = turnout1ClosedPosition;
 void setup() {
   delay(2000);
   //setup output pins
-  pinMode(throughApproachGreenLed, OUTPUT);
-  pinMode(throughApproachRedLed, OUTPUT);
-  pinMode(divergingApproachGreenLed, OUTPUT);
-  pinMode(divergingApproachRedLed, OUTPUT);
-  pinMode(throughGreenLed, OUTPUT);
-  pinMode(throughRedLed, OUTPUT);
+  pinMode(lightControl, OUTPUT);
 
   //setup input pins
   pinMode(Sensor1, INPUT_PULLUP);
   pinMode(Sensor2, INPUT_PULLUP);
   pinMode(Sensor3, INPUT_PULLUP);
+  pinMode(Sensor4, INPUT_PULLUP);
+  pinMode(Sensor5, INPUT_PULLUP);
 
 
-  digitalWrite(throughApproachGreenLed, LOW);      // light led 1 on start up  to show its working
-  delay(2000);
-  digitalWrite(throughApproachGreenLed, HIGH);
+
   turnOut1.attach(2);
   turnOut1.write(turnout1ClosedPosition);
 
@@ -88,20 +77,17 @@ void loop() {
     cmri.set_bit(0, LOW);                                                   //5001
   }
 
-  // read the cmri bit and switch on led ! used as i am using + commom leds tmc signals
-  digitalWrite (throughApproachGreenLed, !cmri.get_bit(1));                 //jmri SH1 5002 
-  digitalWrite (throughApproachRedLed, !cmri.get_bit(2));                   //jmri SH1 5003
-  digitalWrite (divergingApproachGreenLed, !cmri.get_bit(3));               //jmri SH2 5004
-  digitalWrite (divergingApproachRedLed, !cmri.get_bit(4));                 //jmri SH2 5005
-  digitalWrite (throughGreenLed, !cmri.get_bit(5));                         //jmri SH3 5006
-  digitalWrite (throughRedLed, !cmri.get_bit(6));                           //jmri SH3 5007
+  // read the cmri bit and switch on led 
+  digitalWrite (lightControl, cmri.get_bit(1));                             //jmri SH1 5002 
+
 
   // get senors status and send to jmri
   cmri.set_bit(1, !digitalRead(A0));                                        //jmri 5002
   cmri.set_bit(2, !digitalRead(A1));                                        //jmri 5003
   cmri.set_bit(3, !digitalRead(A2));                                        //jmri 5004
-  cmri.set_bit(4, !digitalRead(A3));                                        //jmri 5005
-  cmri.set_bit(5, !digitalRead(A4));                                        //jmri 5006
+  cmri.set_bit(4, !digitalRead(A2));                                        //jmri 5005
+  cmri.set_bit(5, !digitalRead(A2));                                        //jmri 5006
+
 
   if (turnout1Position != turnout1Target) {
     if (millis() > turnoutMoveDelay) {
