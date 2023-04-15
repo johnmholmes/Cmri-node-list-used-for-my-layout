@@ -12,7 +12,9 @@
   2 servo motor
   3 free
   4 to 9 signals
-  10 to 13 free
+  10 to 11 free
+  12 light control
+  13 free
   
   A0 to A4 sensors
   A5 to A7 free
@@ -35,6 +37,7 @@
 #define divergingApproachRedLed 7                 //1005
 #define throughGreenLed 8                         //1006
 #define throughRedLed 9                           //1007
+#define lightControl 12                           //1008
 
 // Spare pins at the moment 3 10 to 13 And A5 to A7 
 
@@ -66,6 +69,7 @@ void setup() {
   pinMode(divergingApproachRedLed, OUTPUT);
   pinMode(throughGreenLed, OUTPUT);
   pinMode(throughRedLed, OUTPUT);
+  pinMode(lightControl, OUTPUT);
 
   //setup input pins
   pinMode(Sensor1, INPUT_PULLUP);
@@ -105,6 +109,7 @@ void loop() {
   digitalWrite (divergingApproachRedLed, !cmri.get_bit(4));                 //jmri SH2 1005
   digitalWrite (throughGreenLed, !cmri.get_bit(5));                         //     SH3 1006
   digitalWrite (throughRedLed, !cmri.get_bit(6));                           //     SH3 1007
+  digitalWrite (lightControl, !cmri.get_bit(7));                            //     LH  1008
 
   // get senors status and send to jmri
   cmri.set_bit(1, !digitalRead(A0));                                        //jmri 1002
