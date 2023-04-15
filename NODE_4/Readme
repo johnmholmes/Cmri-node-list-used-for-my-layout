@@ -4,9 +4,9 @@ This node is used for the dock platform 1 to crossover.
 Pins used are as follows
 0 & 1 Rx & Tx
 2 servo control closed = thrown = jmri 4001 feedback jmri 4001
-3 not used
-4 light control
-5 to 13 not used
+3 to 11 not used
+12 light control
+13 not used
 
 A0 jmri 4002
 A1 jmri 4003
