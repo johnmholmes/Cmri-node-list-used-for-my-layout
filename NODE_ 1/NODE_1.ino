@@ -6,6 +6,17 @@
   also will control 6 off signal leds
   it will also read 5 sensors/switchs
   Code uses some of Chris Sharps code to add slow motion servo.
+  
+  Pins in use are 
+  0,1 rx and tx
+  2 servo motor
+  3 free
+  4 to 9 signals
+  10 to 13 free
+  
+  A0 to A4 sensors
+  A5 to A7 free
+  
 */
 #include <CMRI.h>
 #include <Servo.h>
