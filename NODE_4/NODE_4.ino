@@ -2,10 +2,11 @@
   TTL to RS485 Module Serial Port MCU Automatic Flow Control Module.
   
   simple servo cmri node which moves 1 servo and the sends back a bit back to jmri to indicate
-  the servo has been moved
-  also will control 6 off signal leds
-  it will also read 3 sensors/switchs
-  Code uses some of Chris Sharp code to add slow motion servo.
+  servo is on pin 2
+  no signals
+  it will also read 5 sensors/switchs
+  it also can control lights connected via a mosfet on pin 12 
+  
 */
 #include <CMRI.h>
 #include <Servo.h>
@@ -17,7 +18,7 @@
 #define turnout1ClosedPosition 110
 #define turnout1ThrownPosition 35
 
-#define lightControl 4                            //jmri 4002
+#define lightControl 12                           //jmri 4002
 
 
 // Spare pins at the moment 
