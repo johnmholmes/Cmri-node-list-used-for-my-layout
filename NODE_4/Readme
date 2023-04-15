@@ -1,0 +1,11 @@
+#Node 4
+This node is used for the dock platform 1 to crossover.
+
+Pins used are as follows
+0 & 1 Rx & Tx
+2 servo control closed = thrown =
+3 not used
+4 light control
+5 to 13 not used
+
+A0 to A5 infra red sensors
