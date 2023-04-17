@@ -33,6 +33,10 @@ Node 5 T5 Dock siding to crossover Added a light control for using with a mosfet
 
 Node 6 T6 Peel or Dock city turnout
 
+The node is under testing and will be setup on the front face of the layout to give better access. A 3d printed cover will be made to protect it once complete
+
+-------------
+
 Node 7 T7 Dock city Platform 1 or 2 turnout
 
 Node 8 T8 
