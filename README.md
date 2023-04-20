@@ -23,13 +23,19 @@ TESTING stage of the cross over in the dock area
 
 Node 4 T4 Docks to Platform 1 or siding crossover Added a light control for using with a mosfet on pin 12 jmri 4002 no signals planned
 
-Require to set the turnout and alter the sketch accordinly 16/4/23
+Node 4 is now setup and working 
+
+Node 5 just requires the servo to be calibrated and then nano to be programmed 17/4/23.
 
 Node 5 T5 Dock siding to crossover Added a light control for using with a mosfet on pin 12 jmri 5002 no signals planned
 
 -------------
 
 Node 6 T6 Peel or Dock city turnout
+
+The node is under testing and will be setup on the front face of the layout to give better access. A 3d printed cover will be made to protect it once complete
+
+-------------
 
 Node 7 T7 Dock city Platform 1 or 2 turnout
 
