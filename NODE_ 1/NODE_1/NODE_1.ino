@@ -5,7 +5,7 @@
   the servo has been moved
   also will control 6 off signal leds
   it will also read 5 sensors/switchs
-  Code uses some of Chris Sharps code to add slow motion servo.
+  Code uses some of Chris Sharp's code to add slow motion servo.
   
   Pins in use are 
   0,1 rx and tx

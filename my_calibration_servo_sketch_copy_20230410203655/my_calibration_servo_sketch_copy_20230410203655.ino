@@ -7,7 +7,7 @@
  * 
  * 1 create a servo object and give it a name in this case "servo1"
  * 2 we have to tell the library which pin it is attached to "servo1.attach(4)"
- * 3 to move the servo we will use an int varilble called "pos" and the comand is "servo1,write(pos)
+ * 3 to move the servo we will use an int varilble called "pos" and the command is "servo1,write(pos)
  * 
  * The int varible will get changed using the serial monitor which has to be set to "serial.begin(9600)" in the
  * serial monitor window on your pc.
