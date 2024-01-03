@@ -14,15 +14,15 @@
 #define CMRI_ADDR 4
 
 // define turnout required positions each turnout will need calibrating
-#define turnout1ClosedPosition 100
-#define turnout1ThrownPosition 40
+#define turnout1ClosedPosition 108
+#define turnout1ThrownPosition 91
 
 #define lightControl 4                            //jmri 4002
 
 
 // Spare pins at the moment 
 
-//define infrared detection T3 as inputs
+//define infrared detection T4 as inputs
 #define Sensor1 A0                                //jmri 4002
 #define Sensor2 A1                                //jmri 4003
 #define Sensor3 A2                                //jmri 4004
