@@ -86,8 +86,8 @@ void loop() {
   cmri.set_bit(1, !digitalRead(A0));                                        //jmri 3002
   cmri.set_bit(2, !digitalRead(A1));                                        //jmri 3003
   cmri.set_bit(3, !digitalRead(A2));                                        //jmri 3004
-  cmri.set_bit(4, !digitalRead(A2));                                        //jmri 3005
-  cmri.set_bit(5, !digitalRead(A2));                                        //jmri 3006
+  cmri.set_bit(4, !digitalRead(A3));                                        //jmri 3005
+  cmri.set_bit(5, !digitalRead(A4));                                        //jmri 3006
 
 
   if (turnout1Position != turnout1Target) {
