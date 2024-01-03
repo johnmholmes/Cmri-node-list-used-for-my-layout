@@ -14,8 +14,8 @@
 #define CMRI_ADDR 4
 
 // define turnout required positions each turnout will need calibrating
-#define turnout1ClosedPosition 40
-#define turnout1ThrownPosition 100
+#define turnout1ClosedPosition 100
+#define turnout1ThrownPosition 40
 
 #define lightControl 4                            //jmri 4002
 
