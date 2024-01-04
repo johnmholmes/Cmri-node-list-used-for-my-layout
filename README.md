@@ -14,30 +14,22 @@ Node 2 T2 Peel to Dock turnout and signals and 5 sensors closed 110 thrown 70.
   This node is complete and needs nothing added unless I add the mine lift in which case it could be altered to include a trigger to start the seperate nano             controlling the mine lift.
 
 -------------
-Node 3 T3 Upper to Lower level turnout  and signals and 2 sensors closed 108 thrown 80.
-  
-  This node I feel no further work is required.
 
--------------
 TESTING stage of the cross over in the dock area
 
-Node 4 T4 Docks to Platform 1 or siding crossover Added a light control for using with a mosfet on pin 12 jmri 4002 no signals planned
+Node 3 T3 Docks to Platform 1 or siding crossover Added a light control for using with a mosfet on pin 12 jmri 4002 no signals planned
 
-Node 4 is now setup and working 
+Node 3 is now setup and working 
 
-Node 5 just requires the servo to be calibrated and then nano to be programmed 17/4/23.
+Node 4 just requires the servo to be calibrated and then nano to be programmed 17/4/23.
 
-Node 5 T5 Dock siding to crossover Added a light control for using with a mosfet on pin 12 jmri 5002 no signals planned
-
--------------
-
-Node 6 T6 Peel or Dock city turnout
-
-The node is under testing and will be setup on the front face of the layout to give better access. A 3d printed cover will be made to protect it once complete
+Node 4 T5 Dock siding to crossover Added a light control for using with a mosfet on pin 12 jmri 5002 no signals planned
 
 -------------
 
-Node 7 T7 Dock city Platform 1 or 2 turnout
+Node 6 T6 
+
+Node 7 T7 
 
 Node 8 T8 
 
@@ -72,3 +64,5 @@ Node 22
 Node 23
 
 Node 24
+
+Node 25 Dock mimic panel now working
